@@ -14,8 +14,14 @@ df_train = pd.DataFrame([
         ['A09', 6, 12, 55, 154, 'city', 0, 12]
     ], columns=['ID', 'hour', 'attendance', 'weight', 'iq', 'region', 'library', 'score'])
 
+# print(df_train.head())
+# print(df_train.tail(10))
+# print(df_train.shape)
+# print(df_train.info())
+print(df_train)
+
 # sns.barplot(x=df_train['ID'], y=df_train['score'], data=df_train)
 # sns.lineplot(x=df_train['ID'], y=df_train['score'], data=df_train)
 # sns.boxplot(x=df_train['ID'], y=df_train['score'], data=df_train)
-sns.countplot(x=df_train['ID'], y=df_train['score'], data=df_train)
-plt.show()
+# sns.countplot(x=df_train['ID'], y=df_train['score'], data=df_train)
+# plt.show()
